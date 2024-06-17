@@ -1,0 +1,125 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  width: 100%;
+}
+
+.upper-navbar, .lower-navbar,.vertical-bar{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  background-color: #4CAF50;
+}
+
+.upper-navbar .logo img {
+  height: 40px;
+}
+
+.upper-navbar .icons .icon {
+  height: 30px;
+  margin-left: 15px;
+}
+
+.lower-navbar .search-container {
+  position: relative;
+  width: 75%;
+}
+
+.lower-navbar .search-box {
+  width: 100%;
+  padding: 10px 40px 10px 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.lower-navbar .search-icon {
+  position: absolute;
+  right: -35px;
+  top: 50%;
+  transform: translateY(-50%);
+  height: 20px;
+}
+
+.lower-navbar .qr-icon {
+  height: 30px;
+}
+.vertical-bar{
+  color:white;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 50%;
+  height: 90vh;
+  position: absolute;
+  right: 0;
+  z-index: 1;
+  border-top: #ccc solid 1px;
+  padding: 0;
+  font-size: 1.3rem;
+}
+.vertical-bar .menuitem{
+  border: #ccc solid 1px;
+  border-radius: 10px;
+  padding: 10px 40px;
+  transition: 0.5s;
+}
+.menuitem a{
+  text-decoration: none;
+  color: white;
+}
+.hide{
+  display: none;
+}
+.vertical-bar .menuitem:hover{
+  transform: scale(1.1);
+  background-color: #419e44;
+  cursor: pointer;
+}
+main {
+  padding: 20px;
+}
+
+.grocery-items {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.grocery-items .item {
+  position: relative;
+  width: calc(50% - 20px);
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.grocery-items .item img {
+  width: 100%;
+  transition: filter 0.3s ease;
+}
+
+.grocery-items .item .item-info {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 10px;
+  border-radius: 5px;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  text-align: center;
+}
+
+.grocery-items .item:hover img {
+  filter: blur(5px);
+}
+
+.grocery-items .item:hover .item-info {
+  opacity: 1;
+}
