@@ -3,6 +3,7 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  color: white;
 }
 
 header {
@@ -85,7 +86,10 @@ header {
 main {
   padding: 20px;
 }
-
+.text1{
+  margin-bottom: 10px;
+  color: #867f7f;
+}
 .grocery-items {
   display: flex;
   flex-wrap: wrap;
