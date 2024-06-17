@@ -65,7 +65,9 @@ header {
 .vertical-bar .menuitem{
   border: #ccc solid 1px;
   border-radius: 10px;
-  padding: 10px 40px;
+  min-width: 160px;
+  text-align: center;
+  padding: 10px 0;
   transition: 0.5s;
 }
 .menuitem a{
