@@ -14,7 +14,7 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 10px 20px;
+  padding: 10px 12px;
   background-color: #4CAF50;
 }
 
@@ -24,7 +24,7 @@ header {
 
 .upper-navbar .icons .icon {
   height: 30px;
-  margin-left: 15px;
+  margin-left: 10px;
 }
 
 .lower-navbar .search-container {
