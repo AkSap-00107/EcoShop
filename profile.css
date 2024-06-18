@@ -1,0 +1,126 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e9f5e9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.profile-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.profile-container {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 90%;
+    max-width: 500px;
+    text-align: center;
+}
+
+.profile-header {
+    margin-bottom: 20px;
+}
+
+.profile-image {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.profile-name {
+    margin: 10px 0;
+    font-size: 1.5em;
+    color: #4caf50;
+}
+
+.profile-info {
+    margin: 5px 0;
+    color: #666;
+}
+
+.payment-methods {
+    text-align: center;
+    margin-bottom: 20px;
+    border: 1px solid #4caf50;
+    border-radius: 4px;
+}
+
+.payment-methods h3 {
+    color: #4caf50;
+    margin-bottom: 10px;
+}
+
+.payment-methods ul {
+    list-style: none;
+    padding: 0;
+}
+
+.payment-methods li {
+    background-color:transparent;
+    color: #666;
+    border-radius: 4px;
+    padding: 10px;
+    margin: 5px 0;
+}
+
+.past-transactions {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.past-transactions h3 {
+    color: #4caf50;
+    margin-bottom: 10px;
+}
+
+.transaction {
+    background-color:transparent;
+    color: #666;
+    border-radius: 4px;
+    padding: 10px;
+    margin: 5px 0;
+    text-align: left;
+    border: 1px solid #4caf50;
+    border-radius: 4px;
+    transition: 0.5s;
+}
+.transaction:hover{
+    transform: scale(1.04);
+    /* cursor: pointer; */
+}
+.sign-out{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sign-out-button {
+    background-color: transparent;
+    color: red;
+    border: 1.5px solid red;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    width: 100%;
+    transition: 0.5s;
+}
+
+.sign-out-button .logout-icon {
+    margin-right: 10px;
+}
+
+.sign-out-button:hover {
+    transform: scale(1.04);
+    cursor: pointer;
+}

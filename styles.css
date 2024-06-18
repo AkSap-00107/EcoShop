@@ -50,39 +50,7 @@ header {
 .lower-navbar .qr-icon {
   height: 30px;
 }
-.vertical-bar{
-  color:white;
-  flex-direction: column;
-  justify-content: space-around;
-  width: 50%;
-  height: 82vh;
-  position: absolute;
-  right: 0;
-  z-index: 1;
-  border-top: #ccc solid 1px;
-  padding: 0;
-  font-size: 1.3rem;
-}
-.vertical-bar .menuitem{
-  border: #ccc solid 1px;
-  border-radius: 10px;
-  min-width: 160px;
-  text-align: center;
-  padding: 10px 0;
-  transition: 0.5s;
-}
-.menuitem a{
-  text-decoration: none;
-  color: white;
-}
-.hide{
-  display: none;
-}
-.vertical-bar .menuitem:hover{
-  transform: scale(1.1);
-  background-color: #419e44;
-  cursor: pointer;
-}
+
 main {
   padding: 20px;
 }
