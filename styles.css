@@ -17,7 +17,7 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-around;
-  padding: 10px 12px;
+  padding: 10px 0px;
   background-color: #4CAF50;
   z-index: 1;
 }
@@ -32,7 +32,7 @@ header {
   top: 0;
 }
 
-.upper-navbar .logo img {
+.lower-navbar .logo img {
   height: 40px;
 }
 
@@ -44,7 +44,7 @@ header {
 
 .lower-navbar .search-container {
   position: relative;
-  width: 60%;
+  width: 40%;
 }
 
 .lower-navbar .search-box {
