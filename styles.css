@@ -38,8 +38,8 @@ header {
 
 .upper-navbar .icons .icon {
   height: 30px;
-  margin-left: 5px;
-  margin-right: 5px;
+  /* margin-left: 5px;
+  margin-right: 5px; */
 }
 
 .lower-navbar .search-container {
